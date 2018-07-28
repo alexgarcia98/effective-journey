@@ -18,7 +18,7 @@ chrome.contextMenus.create({
   "onclick" : getClickHandler()
 });
 
-function faceSentence(var faceArray) {
+function faceSentence(faceArray) {
   // This state
   var output = "";
   var i;
@@ -49,7 +49,7 @@ function faceSentence(var faceArray) {
   return output;
 };
 
-function landmarkSentence(var landmarkArray) {
+function landmarkSentence(landmarkArray) {
   // This state
   var output = "";
   var i;
@@ -65,7 +65,7 @@ function landmarkSentence(var landmarkArray) {
   return output;
 };
 
-function logosSentence(var logosArray) {
+function logosSentence(logosArray) {
   // This state
   var output = "";
   var i;
@@ -81,7 +81,7 @@ function logosSentence(var logosArray) {
   return output;
 };
 
-function labelSentence(var labelArray) {
+function labelSentence(labelArray) {
   // This state
   var output = "";
   var i;
@@ -97,7 +97,7 @@ function labelSentence(var labelArray) {
   return output;
 };
 
-function madLibGenerator(var face, var landmark, var logos, var label, var order) {
+function madLibGenerator(face, landmark, logos, label, order) {
   var output = "";
   for (i = 0; i < order.length; i++) {
     switch(order[i]) {
