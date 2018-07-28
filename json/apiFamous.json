@@ -1,0 +1,1129 @@
+{
+  "faceAnnotations": [
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 182,
+            "y": 15
+          },
+          {
+            "x": 385,
+            "y": 15
+          },
+          {
+            "x": 385,
+            "y": 251
+          },
+          {
+            "x": 182,
+            "y": 251
+          }
+        ]
+      },
+      "fdBoundingPoly": {
+        "vertices": [
+          {
+            "x": 207,
+            "y": 72
+          },
+          {
+            "x": 364,
+            "y": 72
+          },
+          {
+            "x": 364,
+            "y": 229
+          },
+          {
+            "x": 207,
+            "y": 229
+          }
+        ]
+      },
+      "landmarks": [
+        {
+          "type": "LEFT_EYE",
+          "position": {
+            "x": 255.62192,
+            "y": 123.32725,
+            "z": 0.0005652361
+          }
+        },
+        {
+          "type": "RIGHT_EYE",
+          "position": {
+            "x": 317.102,
+            "y": 122.68764,
+            "z": 1.7858
+          }
+        },
+        {
+          "type": "LEFT_OF_LEFT_EYEBROW",
+          "position": {
+            "x": 233.88579,
+            "y": 111.82211,
+            "z": 4.965354
+          }
+        },
+        {
+          "type": "RIGHT_OF_LEFT_EYEBROW",
+          "position": {
+            "x": 271.5706,
+            "y": 111.35353,
+            "z": -11.957031
+          }
+        },
+        {
+          "type": "LEFT_OF_RIGHT_EYEBROW",
+          "position": {
+            "x": 300.9668,
+            "y": 110.77695,
+            "z": -11.098837
+          }
+        },
+        {
+          "type": "RIGHT_OF_RIGHT_EYEBROW",
+          "position": {
+            "x": 336.64655,
+            "y": 110.463455,
+            "z": 7.679983
+          }
+        },
+        {
+          "type": "MIDPOINT_BETWEEN_EYES",
+          "position": {
+            "x": 285.70013,
+            "y": 121.45719,
+            "z": -12.302114
+          }
+        },
+        {
+          "type": "NOSE_TIP",
+          "position": {
+            "x": 285.89645,
+            "y": 158.94383,
+            "z": -29.194323
+          }
+        },
+        {
+          "type": "UPPER_LIP",
+          "position": {
+            "x": 285.33865,
+            "y": 179.36313,
+            "z": -14.341683
+          }
+        },
+        {
+          "type": "LOWER_LIP",
+          "position": {
+            "x": 285.88177,
+            "y": 204.36594,
+            "z": -8.89569
+          }
+        },
+        {
+          "type": "MOUTH_LEFT",
+          "position": {
+            "x": 253.66534,
+            "y": 186.35014,
+            "z": 3.871746
+          }
+        },
+        {
+          "type": "MOUTH_RIGHT",
+          "position": {
+            "x": 317.8651,
+            "y": 184.18117,
+            "z": 5.6165724
+          }
+        },
+        {
+          "type": "MOUTH_CENTER",
+          "position": {
+            "x": 285.5546,
+            "y": 191.79547,
+            "z": -9.340331
+          }
+        },
+        {
+          "type": "NOSE_BOTTOM_RIGHT",
+          "position": {
+            "x": 307.2319,
+            "y": 161.05228,
+            "z": -3.928368
+          }
+        },
+        {
+          "type": "NOSE_BOTTOM_LEFT",
+          "position": {
+            "x": 265.22504,
+            "y": 161.91982,
+            "z": -5.1276126
+          }
+        },
+        {
+          "type": "NOSE_BOTTOM_CENTER",
+          "position": {
+            "x": 285.73434,
+            "y": 168.17487,
+            "z": -14.865218
+          }
+        },
+        {
+          "type": "LEFT_EYE_TOP_BOUNDARY",
+          "position": {
+            "x": 255.34103,
+            "y": 120.11329,
+            "z": -4.390866
+          }
+        },
+        {
+          "type": "LEFT_EYE_RIGHT_CORNER",
+          "position": {
+            "x": 268.22638,
+            "y": 124.698555,
+            "z": 0.44248483
+          }
+        },
+        {
+          "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+          "position": {
+            "x": 254.98164,
+            "y": 127.277374,
+            "z": -0.5921643
+          }
+        },
+        {
+          "type": "LEFT_EYE_LEFT_CORNER",
+          "position": {
+            "x": 242.05544,
+            "y": 125.1951,
+            "z": 5.3517566
+          }
+        },
+        {
+          "type": "LEFT_EYE_PUPIL",
+          "position": {
+            "x": 254.31645,
+            "y": 124.23305,
+            "z": -1.9550468
+          }
+        },
+        {
+          "type": "RIGHT_EYE_TOP_BOUNDARY",
+          "position": {
+            "x": 316.2642,
+            "y": 120.05144,
+            "z": -2.618463
+          }
+        },
+        {
+          "type": "RIGHT_EYE_RIGHT_CORNER",
+          "position": {
+            "x": 328.71735,
+            "y": 124.421745,
+            "z": 7.753356
+          }
+        },
+        {
+          "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+          "position": {
+            "x": 317.25305,
+            "y": 126.62979,
+            "z": 1.2086767
+          }
+        },
+        {
+          "type": "RIGHT_EYE_LEFT_CORNER",
+          "position": {
+            "x": 304.47702,
+            "y": 124.266,
+            "z": 1.5389041
+          }
+        },
+        {
+          "type": "RIGHT_EYE_PUPIL",
+          "position": {
+            "x": 316.88443,
+            "y": 124.136894,
+            "z": -0.19007155
+          }
+        },
+        {
+          "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+          "position": {
+            "x": 252.81389,
+            "y": 102.74193,
+            "z": -8.172411
+          }
+        },
+        {
+          "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+          "position": {
+            "x": 318.90628,
+            "y": 102.64877,
+            "z": -6.226931
+          }
+        },
+        {
+          "type": "LEFT_EAR_TRAGION",
+          "position": {
+            "x": 214.19191,
+            "y": 152.19661,
+            "z": 75.14947
+          }
+        },
+        {
+          "type": "RIGHT_EAR_TRAGION",
+          "position": {
+            "x": 353.09,
+            "y": 152.34436,
+            "z": 79.28591
+          }
+        },
+        {
+          "type": "FOREHEAD_GLABELLA",
+          "position": {
+            "x": 286.05115,
+            "y": 109.38252,
+            "z": -14.041924
+          }
+        },
+        {
+          "type": "CHIN_GNATHION",
+          "position": {
+            "x": 285.75708,
+            "y": 228.10516,
+            "z": -0.26271197
+          }
+        },
+        {
+          "type": "CHIN_LEFT_GONION",
+          "position": {
+            "x": 221.71754,
+            "y": 191.68373,
+            "z": 51.5558
+          }
+        },
+        {
+          "type": "CHIN_RIGHT_GONION",
+          "position": {
+            "x": 346.76825,
+            "y": 191.61928,
+            "z": 55.147102
+          }
+        }
+      ],
+      "rollAngle": -0.015029642,
+      "panAngle": 1.6516631,
+      "tiltAngle": -1.4870504,
+      "detectionConfidence": 0.9954791,
+      "landmarkingConfidence": 0.76067334,
+      "joyLikelihood": "VERY_LIKELY",
+      "sorrowLikelihood": "VERY_UNLIKELY",
+      "angerLikelihood": "VERY_UNLIKELY",
+      "surpriseLikelihood": "VERY_UNLIKELY",
+      "underExposedLikelihood": "VERY_UNLIKELY",
+      "blurredLikelihood": "VERY_UNLIKELY",
+      "headwearLikelihood": "VERY_UNLIKELY"
+    }
+  ],
+  "labelAnnotations": [
+    {
+      "mid": "/m/01xyhv",
+      "description": "suit",
+      "score": 0.92372626,
+      "topicality": 0.92372626
+    },
+    {
+      "mid": "/m/035y33",
+      "description": "official",
+      "score": 0.841538,
+      "topicality": 0.841538
+    },
+    {
+      "mid": "/m/012t_z",
+      "description": "businessperson",
+      "score": 0.7338683,
+      "topicality": 0.7338683
+    },
+    {
+      "mid": "/m/02w3_2",
+      "description": "formal wear",
+      "score": 0.7199118,
+      "topicality": 0.7199118
+    },
+    {
+      "mid": "/m/09x0r",
+      "description": "speech",
+      "score": 0.7127488,
+      "topicality": 0.7127488
+    },
+    {
+      "mid": "/m/02079p",
+      "description": "speaker",
+      "score": 0.70947677,
+      "topicality": 0.70947677
+    },
+    {
+      "mid": "/m/068k4",
+      "description": "public speaking",
+      "score": 0.69189394,
+      "topicality": 0.69189394
+    },
+    {
+      "mid": "/m/01xr66",
+      "description": "spokesperson",
+      "score": 0.5790151,
+      "topicality": 0.5790151
+    },
+    {
+      "mid": "/m/0280yrc",
+      "description": "tuxedo",
+      "score": 0.5765452,
+      "topicality": 0.5765452
+    },
+    {
+      "mid": "/m/09s1f",
+      "description": "business",
+      "score": 0.54704946,
+      "topicality": 0.54704946
+    }
+  ],
+
+  "webDetection": {
+    "webEntities": [
+      {
+        "entityId": "/m/02mjmr",
+        "score": 12.63,
+        "description": "Barack Obama"
+      },
+      {
+        "entityId": "/m/09c7w0",
+        "score": 1.0695,
+        "description": "United States"
+      },
+      {
+        "entityId": "/m/060d2",
+        "score": 0.7144,
+        "description": "President of the United States"
+      },
+      {
+        "entityId": "/t/26tx7xy9_tgvr",
+        "score": 0.713
+      },
+      {
+        "entityId": "/m/0fj9f",
+        "score": 0.7055,
+        "description": "Politician"
+      },
+      {
+        "entityId": "/m/05qt0",
+        "score": 0.7014,
+        "description": "Politics"
+      },
+      {
+        "entityId": "/m/07vzd",
+        "score": 0.6117,
+        "description": "Politics of the United States"
+      },
+      {
+        "entityId": "/m/060c4",
+        "score": 0.5778,
+        "description": "President"
+      },
+      {
+        "entityId": "/m/0x67",
+        "score": 0.5715,
+        "description": "African American"
+      },
+      {
+        "entityId": "/m/0d075m",
+        "score": 0.5579,
+        "description": "Democratic Party"
+      },
+      {
+        "entityId": "/m/07wbk",
+        "score": 0.537,
+        "description": "Republican Party"
+      },
+      {
+        "entityId": "/m/033tf_",
+        "score": 0.4241,
+        "description": "Irish Americans"
+      },
+      {
+        "entityId": "/m/0cqt90",
+        "score": 0.08013,
+        "description": "Donald Trump"
+      },
+      {
+        "entityId": "/m/034ls",
+        "score": 0.06579,
+        "description": "George H. W. Bush"
+      },
+      {
+        "entityId": "/m/07hyk",
+        "score": 0.06135,
+        "description": "Theodore Roosevelt"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://img.desmotivaciones.es/201312/el-mundo-esta-lleno-de-personas-carteles-personas-que-no-hacen-desmotivaciones.jpg"
+      },
+      {
+        "url": "http://tattletailzz.com/wp-content/uploads/2016/11/img_2317-1-300x300.jpg"
+      }
+    ],
+    "partialMatchingImages": [
+      {
+        "url": "https://239f21.medialib.edu.glogster.com/b0jVk8DVKhtkJAnTbuPY/media/e6/e6606e7b2b1c4d029b81ffd8b8c505bdb0f103f6/president-barack-obama.jpg"
+      },
+      {
+        "url": "https://happybirthdaybestwishes.com/wp-content/uploads/C/happy%20birthday%20barack%20obama%20;%20President_Barack_Obama.jpg"
+      },
+      {
+        "url": "https://wayka.pe/wp-content/uploads/2017/01/oba.jpg"
+      },
+      {
+        "url": "https://lh6.googleusercontent.com/-iA2RVqZXQLY/U_pKD0jkusI/AAAAAAAAAEw/Rahp0mxGtFY/w2687-h3356/President_Barack_Obama.jpg"
+      },
+      {
+        "url": "https://s3.amazonaws.com/skinner-production/story_images/files/000/011/760/large/barack-obama-1129156_1920.jpg?1503652488"
+      },
+      {
+        "url": "http://1.bp.blogspot.com/--HIR-hpqzyI/UyJpXMeS1vI/AAAAAAAAAJg/AqzcNdveWT0/s1600/President_Barack_Obama.jpg"
+      },
+      {
+        "url": "https://bloximages.chicago2.vip.townnews.com/nwitimes.com/content/tncms/assets/v3/editorial/0/b7/0b74adc6-a19d-5d24-b4d6-b1c499bee36c/5a130de01eec9.image.jpg?resize=1200%2C1498"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/Dgn84V0XUAQr8pS.jpg"
+      },
+      {
+        "url": "http://img.theqoo.net/img/tjZMh.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/DWZbxNAX4AAUppz.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/DPYfzHYX4AAjfTb.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/736x/7b/04/cf/7b04cf74eaa96a81c254006b4c441959.jpg"
+      },
+      {
+        "url": "https://img.buzzfeed.com/buzzfeed-static/static/2016-06/21/17/asset/buzzfeed-prod-fastlane03/sub-buzz-11408-1466542855-1.jpg?downsize=715:*&amp;output-format=auto&amp;output-quality=auto"
+      },
+      {
+        "url": "http://1.bp.blogspot.com/-MEnSJknukk8/UxdoCOyn3OI/AAAAAAAAAds/aSCY4KOfJ7Q/s1600/barackobamaport.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/originals/12/51/60/1251601e9efb7408266112fee201d263.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/736x/12/51/60/1251601e9efb7408266112fee201d263.jpg"
+      },
+      {
+        "url": "https://imgix.ranker.com/user_node_img/28/540336/original/barack-obama-recording-artists-and-groups-photo-u44?w=650&amp;q=50&amp;fm=jpg&amp;fit=crop&amp;crop=faces"
+      },
+      {
+        "url": "https://lh6.googleusercontent.com/-iA2RVqZXQLY/U_pKD0jkusI/AAAAAAAAAEw/Rahp0mxGtFY/w800-h800/President_Barack_Obama.jpg"
+      },
+      {
+        "url": "https://thumbs.gfycat.com/NauticalGiganticFattaileddunnart-mobile.jpg"
+      },
+      {
+        "url": "https://media.fstatic.com/lxhE9DjQDAf-On0gRW6PcUAWquY=/full-fit-in/640x0/media/artists/avatar/2016/02/barack-obama_a278583.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/736x/0a/8f/fc/0a8ffc2d69ed5e96e79a39254a38352e--african-americans-the-americans.jpg"
+      },
+      {
+        "url": "https://i1.wp.com/epochaplus.cz/wp-content/uploads/FOTO-24-634x791.jpg?ssl=1"
+      },
+      {
+        "url": "https://qph.fs.quoracdn.net/main-qimg-b1b75f1260311dd12ced09162f5b487d-c"
+      },
+      {
+        "url": "https://www.aizqx.com/mdimg/md0N6p4ZxxSLoApZSPf.png"
+      },
+      {
+        "url": "https://www.infobae.com/new-resizer/9gEnMeLLikm6K6VO1gKvM1cchM8=/600x0/filters:quality(100)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2016/11/26083206/11-Barack-Obama-president_official_portrait_hires.jpeg"
+      },
+      {
+        "url": "http://3.bp.blogspot.com/-MpCoNFEX7Rg/UuhwfNt5Q4I/AAAAAAAAEso/zRP-WUiiYEw/s1600/president_official_portrait_hires.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/564x/12/51/60/1251601e9efb7408266112fee201d263.jpg"
+      },
+      {
+        "url": "http://img.hotjm.net/upload/cj/46/878d9c0654534165a2e055b066c2cc4d.jpg"
+      },
+      {
+        "url": "https://i1.wp.com/pixelpluck.com/wp-content/uploads/2017/01/presidential-portrait-obama-vs-trump.jpg?resize=577%2C720"
+      },
+      {
+        "url": "https://pics.onsizzle.com/literally-just-a-picture-of-a-dumpster-fire-that-cucks-32993286.png"
+      },
+      {
+        "url": "https://payload344.cargocollective.com/1/5/174739/9187596/15_Obama2_540.jpg"
+      },
+      {
+        "url": "https://www.thevintagenews.com/wp-content/uploads/2016/08/Barak-Obama-44th-President-of-the-United-States-513x640.jpg"
+      },
+      {
+        "url": "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/2/11/enhanced/webdr04/enhanced-18119-1401721434-4.png?downsize=715:*&amp;output-format=auto&amp;output-quality=auto"
+      },
+      {
+        "url": "https://i.kym-cdn.com/photos/images/newsfeed/000/768/164/5f6.png"
+      },
+      {
+        "url": "https://usercontent2.hubstatic.com/13829337_f496.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/474x/12/51/60/1251601e9efb7408266112fee201d263.jpg"
+      },
+      {
+        "url": "http://politicacomunicada.com/wp-content/uploads/2015/09/unnamed-10.jpg"
+      },
+      {
+        "url": "https://akphoto1.ask.fm/04c/06245/03c7/4707/b9ff/92ca29f411e4/original/925849.jpg"
+      },
+      {
+        "url": "http://livedoor.blogimg.jp/laba_q/imgs/b/5/b5545410.jpg"
+      },
+      {
+        "url": "https://akphoto1.ask.fm/525/447/887/-69996967-1tlfa92-5ainrenama53s1k/original/avatar.jpg"
+      },
+      {
+        "url": "https://qph.fs.quoracdn.net/main-qimg-310d5d29b757fe68e3a98b3081a19992-c"
+      },
+      {
+        "url": "https://s1.op46.com/world/2018022814483465ba000fac852f8c9078.jpg"
+      },
+      {
+        "url": "https://i2.wp.com/www.jokeakanbi.com/wp-content/uploads/2017/01/OBAMA-2-1.jpg?resize=423%2C506"
+      },
+      {
+        "url": "https://i2.wp.com/www.parlemag.com/wp-content/uploads/2017/01/President-Barack-Obama.jpg"
+      },
+      {
+        "url": "https://qph.fs.quoracdn.net/main-qimg-a74fa7017cf78579fd1e677056a72d67"
+      },
+      {
+        "url": "https://img.estadao.com.br/resources/jpg/9/9/1476903749099.jpg"
+      },
+      {
+        "url": "https://www.amorc.jp/images/recomend/recomend_p_obama_3.jpg"
+      },
+      {
+        "url": "http://jobhobby.jp/wp-content/uploads/2016/10/10-1.png"
+      },
+      {
+        "url": "http://economic-definition.com/images/2840689035_480.jpg"
+      },
+      {
+        "url": "https://wbpllc.files.wordpress.com/2013/06/boro-obama-official_opt.jpg?w=500"
+      }
+    ],
+    "pagesWithMatchingImages": [
+      {
+        "url": "https://www.ranker.com/list/american-politicians-of-irish-descent/celebrity-lists",
+        "pageTitle": "&lt;b&gt;American Politicians&lt;/b&gt; of Irish Descent | Irish &lt;b&gt;American Politicians&lt;/b&gt;",
+        "partialMatchingImages": [
+          {
+            "url": "https://imgix.ranker.com/user_node_img/28/540336/original/barack-obama-recording-artists-and-groups-photo-u44?w=650&amp;q=50&amp;fm=jpg&amp;fit=crop&amp;crop=faces"
+          }
+        ]
+      },
+      {
+        "url": "https://www.nwitimes.com/news/national/govt-and-politics/ranking-past-presidents-from-least-to-most-experienced/collection_c3690759-a5a4-555a-b315-92b248aa47d9.html",
+        "pageTitle": "Ranking past presidents from least to most experienced | National ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://bloximages.chicago2.vip.townnews.com/nwitimes.com/content/tncms/assets/v3/editorial/0/b7/0b74adc6-a19d-5d24-b4d6-b1c499bee36c/5a130de01eec9.image.jpg?resize=1200%2C1498"
+          }
+        ]
+      },
+      {
+        "url": "https://learningenglish.voanews.com/a/americas-presidents-barack-obama/4181145.html",
+        "pageTitle": "Barack Obama: African-&lt;b&gt;American&lt;/b&gt; - VOA Learning English",
+        "partialMatchingImages": [
+          {
+            "url": "https://gdb.voanews.com/2BDED5A9-3017-4767-93F9-597829CB75E8_w250_r0_s.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.ranker.com/list/famous-leo-celebrities/madame-ruby",
+        "pageTitle": "Famous Leo Celebrities List | Notable Celeb Leos - Ranker",
+        "partialMatchingImages": [
+          {
+            "url": "https://imgix.ranker.com/user_node_img/28/540336/original/barack-obama-recording-artists-and-groups-photo-u44?w=650&amp;q=50&amp;fm=jpg&amp;fit=crop&amp;crop=faces"
+          }
+        ]
+      },
+      {
+        "url": "https://journalstar.com/news/national/govt-and-politics/ranking-past-presidents-from-least-to-most-experienced/collection_84a2f7ee-f40a-5908-bb3e-3e1255cca771.html",
+        "pageTitle": "Ranking past presidents from least to most experienced | National ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://bloximages.chicago2.vip.townnews.com/journalstar.com/content/tncms/assets/v3/editorial/f/c7/fc71c2d8-624e-55be-8346-38074ce1f260/5a130cd642683.image.jpg?resize=1200%2C1498"
+          }
+        ]
+      },
+      {
+        "url": "https://www.pinterest.com/dianefranklin6/politics/",
+        "pageTitle": "91 best &lt;b&gt;Politics&lt;/b&gt; images on Pinterest | Devotional quotes, Angel and ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.pinimg.com/736x/7b/04/cf/7b04cf74eaa96a81c254006b4c441959.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://bismarcktribune.com/news/national/govt-and-politics/ranking-past-presidents-from-least-to-most-experienced/collection_1568a5a6-adfc-5569-8c82-a48a5a7fb3fc.html",
+        "pageTitle": "Ranking past presidents from least to most experienced | National ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://bloximages.chicago2.vip.townnews.com/bismarcktribune.com/content/tncms/assets/v3/editorial/e/97/e9776f12-879a-5125-adf2-969dc544bf28/5a130e3cbef84.image.jpg?resize=1200%2C1498"
+          }
+        ]
+      },
+      {
+        "url": "https://chippewa.com/news/national/govt-and-politics/ranking-past-presidents-from-least-to-most-experienced/collection_a49558b0-4b79-5b1c-9533-53f554ba32b6.html",
+        "pageTitle": "Ranking past presidents from least to most experienced | National ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://bloximages.chicago2.vip.townnews.com/chippewa.com/content/tncms/assets/v3/editorial/7/e5/7e5e02b5-2cac-5c33-83e6-21dfeffb206f/5a130f2d3ed5a.image.jpg?resize=1200%2C1498"
+          }
+        ]
+      },
+      {
+        "url": "https://www.buzzfeed.com/jessicamisener/pilfs",
+        "pageTitle": "A Ranking Of The Hottest &lt;b&gt;U.S.&lt;/b&gt; Presidents - BuzzFeed",
+        "partialMatchingImages": [
+          {
+            "url": "https://img.buzzfeed.com/buzzfeed-static/static/2016-06/21/17/asset/buzzfeed-prod-fastlane03/sub-buzz-11408-1466542855-1.jpg?downsize=715:*&amp;output-format=auto&amp;output-quality=auto"
+          }
+        ]
+      },
+      {
+        "url": "https://madison.com/news/nation/government-and-politics/ranking-past-presidents-from-least-to-most-experienced/collection_3c3815f2-8df7-543a-812c-4f7ca675d319.html",
+        "pageTitle": "Ranking past presidents from least to most experienced | National ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://bloximages.chicago2.vip.townnews.com/madison.com/content/tncms/assets/v3/editorial/8/7c/87cdf7ca-ece2-59fb-9240-44b42f938cbf/5a130f6fe5825.image.jpg?resize=1200%2C1498"
+          }
+        ]
+      },
+      {
+        "url": "https://www.thevintagenews.com/2016/08/28/the-most-popular-presidents-of-the-us-and-what-they-are-remembered-for/",
+        "pageTitle": "The most popular presidents of the &lt;b&gt;US&lt;/b&gt; and what they are ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://www.thevintagenews.com/wp-content/uploads/2016/08/Barak-Obama-44th-President-of-the-United-States-513x640.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.quora.com/Why-is-the-US-such-a-foul-country",
+        "pageTitle": "Why is the &lt;b&gt;US&lt;/b&gt; such a foul country? - Quora",
+        "partialMatchingImages": [
+          {
+            "url": "https://qph.fs.quoracdn.net/main-qimg-310d5d29b757fe68e3a98b3081a19992-c"
+          }
+        ]
+      },
+      {
+        "url": "https://www.pinterest.com/jazzman7946/my-history-mlk-dream-the-nightmares-that-comes-wit/",
+        "pageTitle": "978 best MY HISTORY: MLK DREAM &amp;amp; THE NIGHTMARES THAT ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.pinimg.com/736x/7b/04/cf/7b04cf74eaa96a81c254006b4c441959.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://edu.glogster.com/glog/american-president-obama/23m17phfh8q?=glogpedia-source",
+        "pageTitle": "&lt;b&gt;American&lt;/b&gt; President - Obama: &lt;b&gt;america&lt;/b&gt;, en, obama, politican ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://24b3f6.medialib.edu.glogster.com/B4vMFsWd5wJdAFMPYEJW/media/e6/e6606e7b2b1c4d029b81ffd8b8c505bdb0f103f6/obama.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.pinterest.co.uk/pin/312226186657366584/",
+        "pageTitle": "Black Guy Gets Jumped By Worthless miserable pathetic Asian ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.pinimg.com/originals/00/0c/9b/000c9b10cb4cfb5bc54c2e8af83f20d3.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.funnyordie.com/articles/b7136f83e5/a-look-at-some-of-the-chillest-stuff-in-obama-s-proposed-budget/fetch_next?_rc=articles&amp;_v=0&amp;page=1&amp;playlist=347364&amp;seen%5B%5D=b7136f83e5&amp;suggestion=2c32d88687",
+        "pageTitle": "Barack Obama: &amp;quot;I Can Make Republicans Say Insane Shit By Saying",
+        "partialMatchingImages": [
+          {
+            "url": "http://r.fod4.com/s=h250,pd1/o=80/http://p.fod4.com/p/media/2c32d88687/YMOTWYJAQqiWuj7YQE9g_President_Barack_Obama.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://twitter.com/realdonaldtrump/status/939189419386470401?lang=en",
+        "pageTitle": "Donald J. Trump on Twitter: &amp;quot;MAKE &lt;b&gt;AMERICA&lt;/b&gt; GREAT AGAIN!… &amp;quot;",
+        "partialMatchingImages": [
+          {
+            "url": "https://pbs.twimg.com/media/DQ4_UY-UQAAJ9v9.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://edu.glogster.com/glog/united-states-of-america/25bqdqquiso?=glogpedia-source",
+        "pageTitle": "United States of &lt;b&gt;America&lt;/b&gt;: &lt;b&gt;america&lt;/b&gt;, &lt;b&gt;american&lt;/b&gt;, en, flag, frost ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://9044c4.medialib.edu.glogster.com/ipj6SqaX3pm9pXtFid1D/media/e6/e6606e7b2b1c4d029b81ffd8b8c505bdb0f103f6/president-barack-obama.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://tvaraj.com/2014/04/28/is-a-passport-necessary-the-queen-of-england-us-president-and-the-pope-to-travel-abroad/",
+        "pageTitle": "Is a Passport Necessary for the Queen of England, &lt;b&gt;US&lt;/b&gt; President ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://tvaraj.files.wordpress.com/2014/04/us-president-barack-obama.jpg?w=240&amp;h=300"
+          }
+        ]
+      },
+      {
+        "url": "http://www.thevibrantwishwa.com/?m=201701",
+        "pageTitle": "January 2017 – Thevibrantwishwa",
+        "partialMatchingImages": [
+          {
+            "url": "https://i1.wp.com/www.thevibrantwishwa.com/wp-content/uploads/2017/01/Obama.jpg?resize=240%2C300"
+          }
+        ]
+      },
+      {
+        "url": "http://www.funnyordie.com/articles/221226ba09/i-m-going-to-make-community-college-free-for-anyone-willing-to-dance-for-it-by-barack-obama",
+        "pageTitle": "I&amp;#39;m Going To Make Community College Free For Anyone Willing To",
+        "partialMatchingImages": [
+          {
+            "url": "http://r.fod4.com/s=h250,pd1/o=80/http://p.fod4.com/p/media/221226ba09/hMDWB9a9TeWgx0siJHSt_President_Barack_Obama.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.pinterest.co.uk/pin/52354414390613568/",
+        "pageTitle": "Carson: Obama Trying to &amp;#39;Destroy the Country&amp;#39; | Obama and Prayer ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.pinimg.com/170x/48/d1/fa/48d1fa222496ad3dccf84e4a3f53f31b.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.quora.com/Why-do-people-like-and-dislike-Barack-Obama",
+        "pageTitle": "Why do people like and dislike Barack Obama? - Quora",
+        "partialMatchingImages": [
+          {
+            "url": "https://qph.fs.quoracdn.net/main-qimg-b1b75f1260311dd12ced09162f5b487d-c"
+          }
+        ]
+      },
+      {
+        "url": "http://justinprint.in/category/interview/",
+        "pageTitle": "Latest News in India, Breaking News, top Business, &lt;b&gt;Politician&lt;/b&gt; ...",
+        "partialMatchingImages": [
+          {
+            "url": "http://justinprint.in/wp-content/uploads/2015/03/President_Barack_Obama-240x300.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.allenallenmotorspeedwayracing.org/about.html",
+        "pageTitle": "About &lt;b&gt;Us&lt;/b&gt; - Allen &amp;amp; Allen Motor Speedway Racing",
+        "partialMatchingImages": [
+          {
+            "url": "http://www.allenallenmotorspeedwayracing.org/bo.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://amadanesi.com/category/real-life/",
+        "pageTitle": "Real Life – Ama Danesi",
+        "partialMatchingImages": [
+          {
+            "url": "https://amadanesi.files.wordpress.com/2017/01/barack-obama-1129156_640.jpg?w=176&amp;h=220"
+          }
+        ]
+      },
+      {
+        "url": "https://amadanesi.com/author/amadanesi/",
+        "pageTitle": "Ama – Ama Danesi",
+        "partialMatchingImages": [
+          {
+            "url": "https://amadanesi.files.wordpress.com/2017/01/barack-obama-1129156_640.jpg?w=176&amp;h=220"
+          }
+        ]
+      },
+      {
+        "url": "http://justinprint.in/page/154/?fb_comment_id=173896959422934_4900887",
+        "pageTitle": "Latest News in India, Breaking News, top Business, &lt;b&gt;Politician&lt;/b&gt; ...",
+        "partialMatchingImages": [
+          {
+            "url": "http://justinprint.in/wp-content/uploads/2015/03/President_Barack_Obama-240x300.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.fr76radio.com/fr76radio/blog-76-is-barrack-obama-really-barry-soetoro",
+        "pageTitle": "Blog 76: Is Barrack Obama Really Barry Soetoro? – FR76",
+        "partialMatchingImages": [
+          {
+            "url": "http://www.fr76radio.com/wp-content/uploads/2018/03/BO-240x300.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://www.emaze.com/@AWWOZWWC",
+        "pageTitle": "BARACK OBAMA 44th - Emaze",
+        "partialMatchingImages": [
+          {
+            "url": "https://res.cloudinary.com/emazecom/image/fetch/c_limit,a_ignore,w_200,h_280/https%3A%2F%2Fuserscontent2.emaze.com%2Fimages%2Fe9d2459a-9bef-4bbc-8bd5-d4a4eed3abd9%2F9950e5cbe5bb2ebb0d3ffa6d4dfa5d71.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.fr76radio.com/blog",
+        "pageTitle": "Blog – FR76",
+        "partialMatchingImages": [
+          {
+            "url": "http://www.fr76radio.com/wp-content/uploads/2018/03/BO-240x300.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://exemplore.com/astrology/",
+        "pageTitle": "Astrological Signs and Symbolism | Exemplore",
+        "partialMatchingImages": [
+          {
+            "url": "https://usercontent2.hubstatic.com/13829337_f496.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.jokeakanbi.com/barack-obama-president-will-forever-miss/",
+        "pageTitle": "BARACK OBAMA; THE PRESIDENT WE WILL FOREVER MISS ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://i2.wp.com/www.jokeakanbi.com/wp-content/uploads/2017/01/OBAMA-2-1.jpg?resize=423%2C506"
+          }
+        ]
+      },
+      {
+        "url": "https://www.thriveglobal.com/stories/12357-be-a-good-speaker-like-barack-obama-masterclass-in-presentation-skills",
+        "pageTitle": "Be a Good Speaker like Barack Obama: Masterclass in Presentation ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://s3.amazonaws.com/skinner-production/story_images/files/000/011/760/large/barack-obama-1129156_1920.jpg?1503652488"
+          }
+        ]
+      },
+      {
+        "url": "https://knowyourmeme.com/memes/guys-with-zooeyes",
+        "pageTitle": "Guys With ZooEyes | Know Your Meme",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.kym-cdn.com/photos/images/newsfeed/000/768/164/5f6.png"
+          }
+        ]
+      },
+      {
+        "url": "https://www.wattpad.com/508305806-his-demon-sebama-intro",
+        "pageTitle": "His Demon || Sebama - Intro - Wattpad",
+        "partialMatchingImages": [
+          {
+            "url": "https://em.wattpad.com/b1f3d702e29b90e624bd3504f264c373aae83fa5/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f504c6b527072385a7758394169673d3d2d3530383330353830362e313530306366646364356639363763613333323231333532373438312e6a7067?s=fit&amp;w=720&amp;h=720"
+          },
+          {
+            "url": "https://em.wattpad.com/b1f3d702e29b90e624bd3504f264c373aae83fa5/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f504c6b527072385a7758394169673d3d2d3530383330353830362e313530306366646364356639363763613333323231333532373438312e6a7067"
+          }
+        ]
+      },
+      {
+        "url": "http://dontaylorgenealogy.com/category/prompts/friday/famous-friday/",
+        "pageTitle": "Famous Friday - Don Taylor Genealogy",
+        "partialMatchingImages": [
+          {
+            "url": "https://i0.wp.com/dontaylorgenealogy.com/wp-content/uploads/2018/02/615px-President_Barack_Obama.jpg?resize=200%2C250"
+          }
+        ]
+      },
+      {
+        "url": "http://www.nicholasjeeves.com/filter/Essays/The-Serious-and-the-Smirk",
+        "pageTitle": "The Serious and the Smirk - Nicholas Jeeves",
+        "partialMatchingImages": [
+          {
+            "url": "https://payload344.cargocollective.com/1/5/174739/9187596/15_Obama2_540.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://tvaraj.com/2014/04/",
+        "pageTitle": "April | 2014 | Impressions",
+        "partialMatchingImages": [
+          {
+            "url": "https://tvaraj.files.wordpress.com/2014/04/us-president-barack-obama.jpg?w=240&amp;h=300"
+          }
+        ]
+      },
+      {
+        "url": "https://www.pinterest.ca/pin/770748923699296536/",
+        "pageTitle": "Pin by Kirsten Jochems on Donnie Trump | Pinterest",
+        "partialMatchingImages": [
+          {
+            "url": "https://i.pinimg.com/originals/12/51/60/1251601e9efb7408266112fee201d263.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.jokeakanbi.com/category/whats-in-the-news/",
+        "pageTitle": "What&amp;#39;s in the News Archives ~ JOKE AKANBI BLOG",
+        "partialMatchingImages": [
+          {
+            "url": "https://i2.wp.com/www.jokeakanbi.com/wp-content/uploads/2017/01/OBAMA-2-1.jpg?resize=423%2C506"
+          }
+        ]
+      },
+      {
+        "url": "http://www.nicholasjeeves.com/The-Serious-and-the-Smirk",
+        "pageTitle": "The Serious and the Smirk - Nicholas Jeeves",
+        "partialMatchingImages": [
+          {
+            "url": "https://payload344.cargocollective.com/1/5/174739/9187596/15_Obama2_540.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://www.rickplatt.com/2014/01/",
+        "pageTitle": "Rick Platt: January 2014",
+        "partialMatchingImages": [
+          {
+            "url": "http://3.bp.blogspot.com/-MpCoNFEX7Rg/UuhwfNt5Q4I/AAAAAAAAEso/zRP-WUiiYEw/s1600/president_official_portrait_hires.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://dontaylorgenealogy.com/category/research/roberts/",
+        "pageTitle": "Roberts - Don Taylor Genealogy",
+        "partialMatchingImages": [
+          {
+            "url": "https://i0.wp.com/dontaylorgenealogy.com/wp-content/uploads/2018/02/615px-President_Barack_Obama.jpg?resize=200%2C250"
+          }
+        ]
+      },
+      {
+        "url": "https://1idvet.com/2015/04/",
+        "pageTitle": "April | 2015 | Truth, Lies and In Between",
+        "partialMatchingImages": [
+          {
+            "url": "https://1idvet.files.wordpress.com/2015/04/president_official_portrait_hires1.jpg"
+          }
+        ]
+      },
+      {
+        "url": "http://loveleafimgpicsa.pw/Famous-leos-t.html",
+        "pageTitle": "Famous leos t - Love",
+        "partialMatchingImages": [
+          {
+            "url": "https://imgix.ranker.com/user_node_img/28/540336/original/barack-obama-recording-artists-and-groups-photo-u44?w=650&amp;q=50&amp;fm=jpg&amp;fit=crop&amp;crop=faces"
+          }
+        ]
+      },
+      {
+        "url": "https://www.buzzfeed.com/whitneyjefferson/guys-with-zooey-deschanel-eyes",
+        "pageTitle": "7 Guys With Zooey Deschanel Eyes - BuzzFeed",
+        "partialMatchingImages": [
+          {
+            "url": "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/2/11/enhanced/webdr04/enhanced-18119-1401721434-4.png?downsize=715:*&amp;output-format=auto&amp;output-quality=auto"
+          }
+        ]
+      },
+      {
+        "url": "https://me.me/i/literally-just-a-picture-of-a-dumpster-fire-that-cucks-21849362",
+        "pageTitle": "Literally Just a Picture of a Dumpster Fire That Cucks Get Off to | Fire ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://pics.me.me/literally-just-a-picture-of-a-dumpster-fire-that-cucks-32993286.png"
+          }
+        ]
+      },
+      {
+        "url": "http://www.addicted-quiet.men/html-barack-obamas-reality-show-presidency",
+        "pageTitle": "Html Barack Obamas Reality Show Presidency | Addicted Quiet Men",
+        "partialMatchingImages": [
+          {
+            "url": "https://gdb.voanews.com/2BDED5A9-3017-4767-93F9-597829CB75E8_w250_r0_s.jpg"
+          }
+        ]
+      },
+      {
+        "url": "https://thedailycpa.com/2017/08/22/an-introverts-guide-to-an-extroverts-world/",
+        "pageTitle": "An Introvert&amp;#39;s Guide to an Extrovert&amp;#39;s World – The Daily CPA",
+        "partialMatchingImages": [
+          {
+            "url": "https://i2.wp.com/thedailycpa.com/wp-content/uploads/2017/08/President_Barack_Obama.jpg?resize=186%2C233&amp;ssl=1"
+          }
+        ]
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "https://imgix.ranker.com/user_node_img/28/540336/original/barack-obama-recording-artists-and-groups-photo-u44?w=650&amp;q=50&amp;fm=jpg&amp;fit=crop&amp;crop=faces"
+      },
+      {
+        "url": "https://www.insidernj.com/wp-content/uploads/2017/10/Peter_Rodino1.jpg"
+      },
+      {
+        "url": "https://firenewsfeed.com/image/728x410/aHR0cHM6Ly9jZG4uY25uLmNvbS9jbm5uZXh0L2RhbS9hc3NldHMvMTIwMzE1MDc0ODEwLXRlZC1zdGV2ZW5zLXN0b3J5LXRvcC5qcGc="
+      },
+      {
+        "url": "https://news.stanford.edu/news/2016/february/images/16133-abe_obama_news.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Chris_Collins_official_photo.jpg/220px-Chris_Collins_official_photo.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Richard_Blumenthal_Official_Portrait.jpg/95px-Richard_Blumenthal_Official_Portrait.jpg"
+      },
+      {
+        "url": "https://media.gettyimages.com/photos/american-politicians-california-state-assembly-speaker-antonio-and-picture-id897030560?k=6&amp;m=897030560&amp;s=612x612&amp;w=0&amp;h=p95hOwdbUMRPoX8OKoM09Oo4onijRVvQOxhIHJw8DS0="
+      },
+      {
+        "url": "https://qph.fs.quoracdn.net/main-qimg-1c3cd4055b1839854f1aea2329139592-c"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Brian_Schatz%2C_official_portrait%2C_113th_Congress_2.jpg/95px-Brian_Schatz%2C_official_portrait%2C_113th_Congress_2.jpg"
+      },
+      {
+        "url": "https://d1k5w7mbrh6vq5.cloudfront.net/images/cache/b8/ec/fe/b8ecfef66d9d7f3480e0a1e9d13a4e63.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/originals/50/1a/05/501a05b7ea3519dac6bfdd7425ddc073.jpg"
+      }
+    ],
+    "bestGuessLabels": [
+      {
+        "label": "american politicians",
+        "languageCode": "en"
+      }
+    ]
+  }
+}
