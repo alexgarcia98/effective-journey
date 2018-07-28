@@ -1,0 +1,15 @@
+{
+  "name" : "Eye(h)EarPictures",
+  "version" : "1.0.0",
+  "description" : "Provides an audible description of an image",
+  "background" : { "scripts": ["background.js"] },
+  "permissions" : [
+    "contextMenus",
+    "tabs",
+    "tts",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "manifest_version": 2
+}
