@@ -1,0 +1,962 @@
+{
+  "logoAnnotations": [
+    {
+      "mid": "/m/059wk",
+      "description": "Nintendo",
+      "score": 0.5136613,
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 75,
+            "y": 167
+          },
+          {
+            "x": 360,
+            "y": 167
+          },
+          {
+            "x": 360,
+            "y": 229
+          },
+          {
+            "x": 75,
+            "y": 229
+          }
+        ]
+      }
+    }
+  ],
+  "labelAnnotations": [
+    {
+      "mid": "/m/07s6nbt",
+      "description": "text",
+      "score": 0.953995,
+      "topicality": 0.953995
+    },
+    {
+      "mid": "/m/03gq5hm",
+      "description": "font",
+      "score": 0.83299696,
+      "topicality": 0.83299696
+    },
+    {
+      "mid": "/m/0dwx7",
+      "description": "logo",
+      "score": 0.7789311,
+      "topicality": 0.7789311
+    },
+    {
+      "mid": "/m/02n3pb",
+      "description": "product",
+      "score": 0.7324098,
+      "topicality": 0.7324098
+    },
+    {
+      "mid": "/m/03scnj",
+      "description": "line",
+      "score": 0.7308906,
+      "topicality": 0.7308906
+    },
+    {
+      "mid": "/m/0n0j",
+      "description": "area",
+      "score": 0.6720096,
+      "topicality": 0.6720096
+    },
+    {
+      "mid": "/m/01cd9",
+      "description": "brand",
+      "score": 0.65774196,
+      "topicality": 0.65774196
+    },
+    {
+      "mid": "/m/01jwgf",
+      "description": "product",
+      "score": 0.6304733,
+      "topicality": 0.6304733
+    },
+    {
+      "mid": "/m/0j62f",
+      "description": "rectangle",
+      "score": 0.55174595,
+      "topicality": 0.55174595
+    },
+    {
+      "mid": "/m/021sdg",
+      "description": "graphics",
+      "score": 0.53908443,
+      "topicality": 0.53908443
+    },
+    {
+      "mid": "/m/06zsq",
+      "description": "sign",
+      "score": 0.5067775,
+      "topicality": 0.5067775
+    },
+    {
+      "mid": "/m/0bkqqh",
+      "description": "signage",
+      "score": 0.5005932,
+      "topicality": 0.5005932
+    }
+  ],
+  "textAnnotations": [
+    {
+      "locale": "en",
+      "description": "Nintendo\n",
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 64,
+            "y": 173
+          },
+          {
+            "x": 333,
+            "y": 173
+          },
+          {
+            "x": 333,
+            "y": 223
+          },
+          {
+            "x": 64,
+            "y": 223
+          }
+        ]
+      }
+    },
+    {
+      "description": "Nintendo",
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 64,
+            "y": 173
+          },
+          {
+            "x": 333,
+            "y": 173
+          },
+          {
+            "x": 333,
+            "y": 223
+          },
+          {
+            "x": 64,
+            "y": 223
+          }
+        ]
+      }
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "VERY_UNLIKELY",
+    "spoof": "VERY_UNLIKELY",
+    "medical": "UNLIKELY",
+    "violence": "VERY_UNLIKELY",
+    "racy": "VERY_UNLIKELY"
+  },
+  "imagePropertiesAnnotation": {
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "red": 227,
+            "green": 4,
+            "blue": 28
+          },
+          "score": 0.8138302,
+          "pixelFraction": 0.06952393
+        },
+        {
+          "color": {
+            "red": 254,
+            "green": 246,
+            "blue": 247
+          },
+          "score": 0.027424982,
+          "pixelFraction": 0.89184445
+        },
+        {
+          "color": {
+            "red": 238,
+            "green": 105,
+            "blue": 120
+          },
+          "score": 0.022601092,
+          "pixelFraction": 0.004292404
+        },
+        {
+          "color": {
+            "red": 232,
+            "green": 50,
+            "blue": 71
+          },
+          "score": 0.061858963,
+          "pixelFraction": 0.005983351
+        },
+        {
+          "color": {
+            "red": 250,
+            "green": 217,
+            "blue": 220
+          },
+          "score": 0.023936432,
+          "pixelFraction": 0.016259106
+        },
+        {
+          "color": {
+            "red": 235,
+            "green": 77,
+            "blue": 97
+          },
+          "score": 0.018440122,
+          "pixelFraction": 0.0022762746
+        },
+        {
+          "color": {
+            "red": 248,
+            "green": 191,
+            "blue": 198
+          },
+          "score": 0.011241907,
+          "pixelFraction": 0.0052679502
+        },
+        {
+          "color": {
+            "red": 223
+          },
+          "score": 0.008513559,
+          "pixelFraction": 0.00045525495
+        },
+        {
+          "color": {
+            "red": 245,
+            "green": 163,
+            "blue": 173
+          },
+          "score": 0.005265598,
+          "pixelFraction": 0.0024063475
+        },
+        {
+          "color": {
+            "red": 242,
+            "green": 141,
+            "blue": 153
+          },
+          "score": 0.003700043,
+          "pixelFraction": 0.0011056191
+        }
+      ]
+    }
+  },
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 31
+            },
+            {
+              "x": 351
+            },
+            {
+              "x": 351,
+              "y": 399
+            },
+            {
+              "x": 31,
+              "y": 399
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.95
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 399
+            },
+            {
+              "x": 399,
+              "y": 399
+            },
+            {
+              "y": 399
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 399
+            },
+            {
+              "x": 399,
+              "y": 335
+            },
+            {
+              "y": 335
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 1
+      }
+    ]
+  },
+  "fullTextAnnotation": {
+    "pages": [
+      {
+        "property": {
+          "detectedLanguages": [
+            {
+              "languageCode": "en",
+              "confidence": 1
+            }
+          ]
+        },
+        "width": 400,
+        "height": 400,
+        "blocks": [
+          {
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 64,
+                  "y": 173
+                },
+                {
+                  "x": 333,
+                  "y": 173
+                },
+                {
+                  "x": 333,
+                  "y": 223
+                },
+                {
+                  "x": 64,
+                  "y": 223
+                }
+              ]
+            },
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 64,
+                      "y": 173
+                    },
+                    {
+                      "x": 333,
+                      "y": 173
+                    },
+                    {
+                      "x": 333,
+                      "y": 223
+                    },
+                    {
+                      "x": 64,
+                      "y": 223
+                    }
+                  ]
+                },
+                "words": [
+                  {
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "en"
+                        }
+                      ]
+                    },
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 64,
+                          "y": 173
+                        },
+                        {
+                          "x": 333,
+                          "y": 173
+                        },
+                        {
+                          "x": 333,
+                          "y": 223
+                        },
+                        {
+                          "x": 64,
+                          "y": 223
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 64,
+                              "y": 173
+                            },
+                            {
+                              "x": 96,
+                              "y": 173
+                            },
+                            {
+                              "x": 96,
+                              "y": 223
+                            },
+                            {
+                              "x": 64,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "N",
+                        "confidence": 0.99
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 108,
+                              "y": 173
+                            },
+                            {
+                              "x": 133,
+                              "y": 173
+                            },
+                            {
+                              "x": 133,
+                              "y": 223
+                            },
+                            {
+                              "x": 108,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "i",
+                        "confidence": 1
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 129,
+                              "y": 173
+                            },
+                            {
+                              "x": 153,
+                              "y": 173
+                            },
+                            {
+                              "x": 153,
+                              "y": 223
+                            },
+                            {
+                              "x": 129,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "n",
+                        "confidence": 1
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 169,
+                              "y": 173
+                            },
+                            {
+                              "x": 195,
+                              "y": 173
+                            },
+                            {
+                              "x": 195,
+                              "y": 223
+                            },
+                            {
+                              "x": 169,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "t",
+                        "confidence": 0.78
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 196,
+                              "y": 173
+                            },
+                            {
+                              "x": 218,
+                              "y": 173
+                            },
+                            {
+                              "x": 218,
+                              "y": 223
+                            },
+                            {
+                              "x": 196,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "e",
+                        "confidence": 1
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 222,
+                              "y": 173
+                            },
+                            {
+                              "x": 253,
+                              "y": 173
+                            },
+                            {
+                              "x": 253,
+                              "y": 223
+                            },
+                            {
+                              "x": 222,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "n",
+                        "confidence": 1
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ]
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 268,
+                              "y": 173
+                            },
+                            {
+                              "x": 300,
+                              "y": 173
+                            },
+                            {
+                              "x": 300,
+                              "y": 223
+                            },
+                            {
+                              "x": 268,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "d",
+                        "confidence": 1
+                      },
+                      {
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "en"
+                            }
+                          ],
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 305,
+                              "y": 173
+                            },
+                            {
+                              "x": 333,
+                              "y": 173
+                            },
+                            {
+                              "x": 333,
+                              "y": 223
+                            },
+                            {
+                              "x": 305,
+                              "y": 223
+                            }
+                          ]
+                        },
+                        "text": "o",
+                        "confidence": 0.99
+                      }
+                    ],
+                    "confidence": 0.97
+                  }
+                ],
+                "confidence": 0.97
+              }
+            ],
+            "blockType": "TEXT",
+            "confidence": 0.97
+          }
+        ]
+      }
+    ],
+    "text": "Nintendo\n"
+  },
+  "webDetection": {
+    "webEntities": [
+      {
+        "entityId": "/m/0dwx7",
+        "score": 1.0222218,
+        "description": "Logo"
+      },
+      {
+        "entityId": "/m/059wk",
+        "score": 0.8896,
+        "description": "Nintendo"
+      },
+      {
+        "entityId": "/t/257fx8s2x5xvk",
+        "score": 0.7177
+      },
+      {
+        "entityId": "/m/0bmjxs9",
+        "score": 0.7016,
+        "description": "Nintendo 3DS"
+      },
+      {
+        "entityId": "/m/0gtxcy9",
+        "score": 0.7016,
+        "description": "Nintendo eShop"
+      },
+      {
+        "entityId": "/m/07_tb",
+        "score": 0.6772,
+        "description": "Video Game Consoles"
+      },
+      {
+        "entityId": "/m/03gq5hm",
+        "score": 0.5759914,
+        "description": "Font"
+      },
+      {
+        "entityId": "/t/218c6__3f4qcc",
+        "score": 0.5072
+      },
+      {
+        "entityId": "/t/2h3908mz76rs",
+        "score": 0.5052
+      },
+      {
+        "entityId": "/m/021sdg",
+        "score": 0.4989,
+        "description": "Graphics"
+      },
+      {
+        "entityId": "/m/02cwm",
+        "score": 0.4736,
+        "description": "Design"
+      },
+      {
+        "entityId": "/m/01jwgf",
+        "score": 0.4587,
+        "description": "Product"
+      },
+      {
+        "entityId": "/t/26t8h1srtf0h2",
+        "score": 0.4232
+      },
+      {
+        "entityId": "/m/02jfdl",
+        "score": 0.3955,
+        "description": "Coupon"
+      },
+      {
+        "entityId": "/m/03thgk",
+        "score": 0.3633,
+        "description": "Silhouette"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://cdn.shopify.com/s/files/1/1527/6765/collections/Nintendo-logo-red.png?v=1476035571"
+      },
+      {
+        "url": "https://www.revel-phone.com/ressources/images/3710107a559e.png"
+      },
+      {
+        "url": "https://chromagi.com/wp-content/uploads/logo/nintendo.svg"
+      },
+      {
+        "url": "http://www.epicos.it/wp-content/uploads/2015/09/nintendo.png"
+      },
+      {
+        "url": "https://static1.squarespace.com/static/5893a152579fb35d02830506/t/59aa051a579fb343a2c27a2f/1504810394496/Nintendo.png?format=1000w"
+      },
+      {
+        "url": "https://static1.squarespace.com/static/5761ec5cff7c5097ebb3216f/58663db8725e25b2dffb099c/5a6ec3439140b70ed98123a3/1517208388642/Nintendo.png"
+      },
+      {
+        "url": "https://static1.squarespace.com/static/5805eec959cc683faf2e6393/5805f590e4fcb5a6abb3b943/5832bf74e6f2e12eebdc83de/1479720823624/nintendo+logo.jpg"
+      },
+      {
+        "url": "https://www.thedesignlove.com/wp-content/uploads/2016/09/Time-Tested-Logos-Nitendo-1024x736.jpg"
+      },
+      {
+        "url": "https://www.pnicorp.com/wp-content/uploads/200-Nintendo-01.png"
+      },
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1711427882208146"
+      },
+      {
+        "url": "http://www.gamekyo.com/images_1/3a0b3f9368135148837dc9fd7f6b4c6b20150630070010.png"
+      },
+      {
+        "url": "https://imgix.ranker.com/user_node_img/85/1682964/original/nintendo-photo-u8?w=650&amp;q=50&amp;fm=jpg&amp;fit=fill&amp;bg=fff"
+      },
+      {
+        "url": "https://img.besteproduct.nl/brand/768.png"
+      },
+      {
+        "url": "https://i.pinimg.com/originals/38/44/7f/38447f20b44878860c24bcfffdc7b983.jpg"
+      },
+      {
+        "url": "https://www.gfxmag.com/wp-content/uploads/2016/07/nintendo-vector-logo.png"
+      },
+      {
+        "url": "https://www.teleadhesivo.com/es/img/arc059-jpg/folder/products-listado-merchanthover/pegatinas-coches-motos-nintendo-logo.jpg"
+      },
+      {
+        "url": "https://www.gfxmag.com/wp-content/uploads/2016/07/nintendo-vector-logo.jpg"
+      },
+      {
+        "url": "https://biglessons.podbean.com/mf/web/p58qcg/nintendo.png"
+      },
+      {
+        "url": "http://diylogodesigns.com/blog/wp-content/uploads/2016/04/Nintendo-Company-Logo-design.png"
+      },
+      {
+        "url": "https://p3d.in/model_data/snapshot/oHKud"
+      },
+      {
+        "url": "http://chittagongit.com/images/nintendo-icon-png/nintendo-icon-png-10.jpg"
+      },
+      {
+        "url": "https://lh5.googleusercontent.com/-lG5xlaB_-QE/AAAAAAAAAAI/AAAAAAAAAGU/ARK6Dh692U8/photo.jpg"
+      },
+      {
+        "url": "https://www.thegeekgift.com/wp-content/uploads/2016/08/nintendo_products_from_amazon.jpg?x53467"
+      },
+      {
+        "url": "http://www.juegosgratisinternet.com/noticias/fotos//log-nin.jpg"
+      },
+      {
+        "url": "https://media.icdn.hu/product/GalleryMod/2012-09/134164/resp/196705_nintendo.jpg"
+      },
+      {
+        "url": "http://s2.freeupload.ir/i/00069/qqqd26kznqch.jpg"
+      },
+      {
+        "url": "https://www.idgeek.fr/img/m/7.jpg"
+      },
+      {
+        "url": "https://www.retrogameshop.it/img/m/3-medium_default.jpg"
+      },
+      {
+        "url": "http://static.the-minute.com/1904.jpg"
+      },
+      {
+        "url": "https://cdn.nay.sk/images/img-1100/6/195736.jpg"
+      },
+      {
+        "url": "https://i.pinimg.com/736x/3c/57/7d/3c577d842de606b58edd38887bfcd6dd.jpg"
+      },
+      {
+        "url": "https://www.nintendo-online.de/upload/images/2011/08/02/i_29217.jpg"
+      },
+      {
+        "url": "http://portfolio.starseed.fr/files/images/customer/customer/partner-logo-nintendo.jpg"
+      },
+      {
+        "url": "http://4.bp.blogspot.com/-KkeKb1a6Jrw/U9-Kel43D-I/AAAAAAAAIMg/7t1IAwSoFyA/s1600/origem+do+nome+empresa+nintendo-+gnvisino.jpg"
+      },
+      {
+        "url": "http://vectorlogofree.com/wp-content/uploads/2013/04/nintendo-vector-logo-400x400.png"
+      },
+      {
+        "url": "http://www.gameoncy.com/wp-content/uploads/2016/02/Nintendo-400x400.png"
+      },
+      {
+        "url": "http://www.diascoelho.pt/uploads/1/3/9/4/13949352/1615258.jpg"
+      },
+      {
+        "url": "http://wdrmedia.com.mx/imagenes-wdr-media/wdr-clientes/nintendo.jpg"
+      },
+      {
+        "url": "https://www.seeklogo.net/wp-content/uploads/2013/04/nintendo-vector-logo-400x400.png"
+      },
+      {
+        "url": "https://static.fnac-static.com/multimedia/Images/FR/MC/3c/8f/e1/14782268/1507-1.jpg"
+      },
+      {
+        "url": "https://www.cooganstores.com.au/media/brands/thumbnail/123/nint.png"
+      },
+      {
+        "url": "http://pm1.narvii.com/6384/8b9ee54db3db6678bc93efaeb355879f20f9a484_00.jpg"
+      },
+      {
+        "url": "https://www.seeklogo.net/wp-content/uploads/2013/04/nintendo-vector-logo.png"
+      },
+      {
+        "url": "http://bricklive.co.uk/wp-content/uploads/2017/09/nintendo.jpg"
+      },
+      {
+        "url": "https://www.giocattolo.it/c/324-medium_default/NINTENDO.jpg"
+      },
+      {
+        "url": "http://thedojoforgamers.com/wp-content/uploads/2015/03/nini.jpg"
+      },
+      {
+        "url": "https://www.lotto-jansen.de/images/xxx-system/xxx-icons/Firmenlogos/Nintendo/Logo-Nintendo-01.png"
+      },
+      {
+        "url": "https://www.lsa-conso.fr/mediatheque/7/2/9/000005927_87.jpg"
+      },
+      {
+        "url": "http://www.hays-voixoff.com/img/portfolio/nintendo.jpg"
+      },
+      {
+        "url": "http://images-nitrosell-com.akamaized.net/store_images/23/5719/Sticker-Logo-Nintendo.jpg"
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "http://logok.org/wp-content/uploads/2014/12/Nintendo-logo-red.png"
+      },
+      {
+        "url": "http://www.logotypes101.com/logos/749/9B91E9DA8C2783251AA52A379223BF7E/Nintendo82.png"
+      },
+      {
+        "url": "http://www.vector-logo.net/logo_preview/ai/n/NINTENDO_LICENSED_LOGO.png"
+      },
+      {
+        "url": "http://fc06.deviantart.net/fs70/f/2012/126/3/c/nintendo_logo_by_abooklover123-d4yrooq.jpg"
+      },
+      {
+        "url": "https://s3.amazonaws.com/freebiesupply/thumbs/2x/nintendo-logo.png"
+      },
+      {
+        "url": "http://epicwallpaperz.com/wallpaper-hd/nintendo-logo-wallpaper-photo-On-wallpaper-hd.jpg"
+      },
+      {
+        "url": "https://www.brandeps.com/logo-download/S/Super-Nintendo-01.png"
+      },
+      {
+        "url": "http://i0.wp.com/consolerepairs.ie/wp-content/uploads/2016/09/nintendo-logo-1-300x169.jpg"
+      },
+      {
+        "url": "http://1000logos.net/wp-content/uploads/2017/11/logo-Nintendo.jpg"
+      },
+      {
+        "url": "https://www.seeklogo.net/wp-content/uploads/2011/05/marvel-comics-vector-logo.png"
+      },
+      {
+        "url": "https://www.logolynx.com/images/logolynx/af/af6113b007b26bcd881e57905ca7e8ab.jpeg"
+      },
+      {
+        "url": "https://imocritics.files.wordpress.com/2012/04/nintendo-3ds-logo.jpg"
+      },
+      {
+        "url": "http://logosvector.net/wp-content/uploads/2012/11/super-nintendo-vector-logo.png"
+      },
+      {
+        "url": "http://www.userlogos.org/files/logos/Airbagman/Nintendo_shine_white.png"
+      },
+      {
+        "url": "https://www.brandeps.com/logo-download/N/Nintendo-2DS-01.png"
+      },
+      {
+        "url": "https://yoyoimage.com/wp-content/uploads/2018/02/1-3-53.jpg"
+      },
+      {
+        "url": "https://www.seeklogo.net/wp-content/uploads/2017/04/nintendo-direct-logo.png"
+      },
+      {
+        "url": "http://laoblogger.com/images/red-nintendo-logo-clipart-2.jpg"
+      },
+      {
+        "url": "http://gamesites.nintendo.com.au/nintendo-classics-mini-nintendo-entertainment-system/images/_Logo_NCM_neg.svg"
+      }
+    ],
+    "bestGuessLabels": [
+      {
+        "label": "nintendo logo vector",
+        "languageCode": "en"
+      }
+    ]
+  }
+}
