@@ -1,10 +1,35 @@
 /**
  * Returns a handler which will get the image description and verbalize it.
  */
+
+
 function getClickHandler() {
   return function(info, tab) {
     console.log(info.srcUrl);
-    chrome.tts.speak('This is a picture of a smiling person.');
+    var f1 = {name:"gars", num:21};
+    var f2 = {name:"aaron", num:22};
+    var f3 = {name:"hitch", num:23};
+    var f4 = {name:"paris", num:24};
+    var f5 = {name:"italy", num:25};
+    var f6 = {name:"trash can", num:26};
+    var f7 = {name:"apple", num:27};
+    var f8 = {name:"google", num:28};
+    var f9 = {name:"tesla", num:29};
+    var f10 = {name:"obamj", num:30};
+    var f11 = {name:"obamk", num:31};
+    var f12 = {name:"obaml", num:32};
+    var faces = [f1, f2, f3];
+    var landmark = [f4, f5, f6];
+    var logos = [f7, f8, f9];
+    var label = [f10, f11, f12];
+    var face1 = faceSentence(faces);
+    var landmark1 = landmarkSentence(landmark);
+    var logos1 = logosSentence(logos);
+    var label1 = labelSentence(faces);
+    var order = ["face", "landmark", "logos", "label"]
+    var output = madLibGenerator(face1, landmark1, logos1, label1, order);
+    console.log(output);
+    chrome.tts.speak(output);
   };
 };
 
@@ -23,8 +48,8 @@ function faceSentence(faceArray) {
   var output = "";
   var i;
   for (i = 0; i < faceArray.length; i++) {
-    if(faceArray.name != "") {
-      output = output.concat(faceArray.name);
+    if(faceArray[i].name != "") {
+      output = output.concat(faceArray[i].name);
     }
     else {
       break;
@@ -54,7 +79,7 @@ function landmarkSentence(landmarkArray) {
   var output = "";
   var i;
   for (i = 0; i < landmarkArray.length; i++) {
-    output = output.concat(landmarkArray.name);
+    output = output.concat(landmarkArray[i].name);
     if(i == landmarkArray.length - 2) {
       output = output.concat(", and ");
     }
@@ -70,7 +95,7 @@ function logosSentence(logosArray) {
   var output = "";
   var i;
   for (i = 0; i < logosArray.length; i++) {
-    output = output.concat(logosArray.name);
+    output = output.concat(logosArray[i].name);
     if(i == logosArray.length - 2) {
       output = output.concat(", and ");
     }
@@ -86,7 +111,7 @@ function labelSentence(labelArray) {
   var output = "";
   var i;
   for (i = 0; i < labelArray.length; i++) {
-    output = output.concat(labelArray.name);
+    output = output.concat(labelArray[i].name);
     if(i == labelArray.length - 2) {
       output = output.concat(", and ");
     }
