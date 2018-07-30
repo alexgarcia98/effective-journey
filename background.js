@@ -115,15 +115,85 @@ function fix (problemStart,problemEnd, input) {
 
 }
 
+//someone should set this
+var API_KEY="";
+
+
+//https://github.com/GoogleCloudPlatform/machine-learning-browser-extension/blob/master/chrome/background.js
+function httpRequest(method, url, body, cb) {
+	var xhr = new XMLHttpRequest();
+	xhr.open(method, url, true);
+	xhr.setRequestHeader('Content-Type', 'application/json');
+	xhr.onreadystatechange = function () {
+	if (xhr.readyState !== 4) { return; }
+		if (xhr.status >= 400) {
+			//notify('API request failed');
+			console.log('XHR failed', xhr.responseText);
+			return;
+		}
+		cb(xhr.responseText);
+	};
+	xhr.send(body);
+};
+
+function notify(title, message) {
+  chrome.notifications.create('', {
+    'type': 'basic',
+    'iconUrl': 'images/icon128.png',
+    'title': title,
+    'message': message || ''
+  }, function (nid) {
+    // Automatically close the notification in 4 seconds.
+    window.setTimeout(function () {
+      chrome.notifications.clear(nid);
+    }, 4000);
+  });
+};
+
+
+
+function b64(url, cb) {
+	var image = new Image();
+	image.setAttribute('crossOrigin', 'anonymous');
+	image.onload = function () {
+		var canvas = document.createElement('canvas');
+		canvas.height = this.naturalHeight;
+		canvas.width = this.naturalWidth;
+		canvas.getContext('2d').drawImage(this, 0, 0);
+		var b64data = canvas.toDataURL('image/png').replace(/^data:image\/(png|jpg);base64,/, '');
+		cb(b64data);
+	};
+	image.src = url;
+};
 
 function getClickHandler() {
 	return function(info, tab) {
-		console.log(info.srcUrl);
+		console.log("info.srcUrl: "+info.srcUrl);
+		b64(info.srcUrl, function (b64data) {
+			console.log("base64 callback");
+			var url = 'https://vision.googleapis.com/v1/images:annotate?key=' + API_KEY;
+			var data = {
+				requests: [{
+					image: {content: b64data}
+				}]
+			};
+			httpRequest('POST', url, JSON.stringify(data), function(responseText) {
+				console.log("getting main func");
+				getMainFunction()(info, tab, responseText);
+			});
+		});
+	};
+};
+
+function getMainFunction() {
+	return function(info, tab, input_text) {
+		//console.log(info.srcUrl);
 
 		//console.log("Hey: "+input.substr(2550, 20));
 		input = fixFaultyInput(input);
+		input_text=fixFaultyInput(input_text);
 
-		var obj = JSON.parse(input);
+		var obj = JSON.parse(input_text);
 		console.log(obj);
 
 		var parser_output=new Object();
@@ -395,7 +465,7 @@ function analyze_parser_output(parser_output) {
 chrome.contextMenus.create({
   "title" : "Get image description",
   "type" : "normal",
-  "contexts" : ["image", "video"],
+  "contexts" : ["image"],
   "onclick" : getClickHandler()
 });
 
