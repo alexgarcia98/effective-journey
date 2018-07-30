@@ -18,12 +18,12 @@ var input = '{"faceAnnotations":[{"boundingPoly":{"vertices":[{"x":182,"y":15},{
 function getClickHandler() {
 	return function(info, tab) {
 		console.log(info.srcUrl);
-		
+
 		//console.log("Hey: "+input.substr(2550, 20));
-		
+
 		var obj = JSON.parse(input);
 		console.log(obj);
-		
+
 		var parser_output=new Object();
 		parser_output.faces=new Array();
 		parser_output.safesearch=new Array();
@@ -41,13 +41,13 @@ function getClickHandler() {
 			parser_output.faces=faces;
 			console.log("num parse faces: "+parser_output.faces.length);
 		}
-		
-		
+
+
 		if (input.includes("labelAnnotations")) {
 			var labels = labelAnnotations(obj);
 			parser_output.labels=labels;
 		}
-		
+
 		if (input.includes("imagePropertiesAnnotation")) {
 			console.log("start of imagePropertiesAnnotation");
 
@@ -84,13 +84,13 @@ function getClickHandler() {
     var f10 = {name:"obamj", num:30};
     var f11 = {name:"obamk", num:31};
     var f12 = {name:"obaml", num:32};
-	
+
 	var face1;
     var landmark1;
     var logos1;
     var label1;
 	var order=new Array();
-	
+
 	for(var i=0;i<analysis_output.length;i++) {
 		switch(analysis_output[i].typename) {
 			case "faces":
@@ -442,32 +442,32 @@ function faceAnnotations(obj, faces) {
 	//console.log(obj.faceAnnotations);
 	for(var i=0;i<obj.faceAnnotations.length;i++) {
     		var faceFeatures = obj.faceAnnotations[i];
-    	
+
     		var temp = new Object();
 		var face = new Object();
 		face.emotions=new Array();
-		
+
 		temp.type = "Joy"
 		temp.likelihood = likelihoodToInt(faceFeatures.joyLikelihood)
 		face.emotions.push(temp);
-		
+
 		temp = new Object();
 		temp.type = "Sorrow"
 		temp.likelihood = likelihoodToInt(faceFeatures.sorrowLikelihood)
 		face.emotions.push(temp);
-		
+
 		temp = new Object();
 		temp.type = "Anger"
 		temp.likelihood = likelihoodToInt(faceFeatures.angerLikelihood)
 		face.emotions.push(temp);
-		
+
 		temp = new Object();
 		temp.type = "Surprise"
 		temp.likelihood = likelihoodToInt(faceFeatures.surpriseLikelihood)
 		face.emotions.push(temp);
-		
+
 		face.headwear = likelihoodToInt(faceFeatures.headwearLikelihood)
-		
+
 		face.blurred = likelihoodToInt(faceFeatures.blurredLikelihood)
 		face.detectionConfidence=faceFeatures.detectionConfidence;
 		faces.push(face);
