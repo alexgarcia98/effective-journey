@@ -160,6 +160,7 @@ function b64(url, cb) {
 
 function getClickHandler() {
 	return function(info, tab) {
+		chrome.tts.speak("Let me think about that...");
 		console.log("info.srcUrl: "+info.srcUrl);
 		//getMainFunction()(info, tab, input);
 		//return;
