@@ -179,6 +179,10 @@ function getClickHandler() {
 						{
 							"type": "LABEL_DETECTION",
 							"maxResults": 3
+						},
+						{
+							"type": "WEB_DETECTION",
+							"maxResults": 3
 						}
 					]
 				}]
