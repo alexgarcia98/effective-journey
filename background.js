@@ -103,7 +103,7 @@ function fix (problemStart,problemEnd, input) {
 }
 
 //someone should set this
-var API_KEY="";
+var API_KEY="AIzaSyDAB8RRLNJ_SiC2nGVHinvrT3hjwI2Cwuo";
 
 
 //https://github.com/GoogleCloudPlatform/machine-learning-browser-extension/blob/master/chrome/background.js
@@ -116,6 +116,8 @@ function httpRequest(method, url, body, cb) {
 		if (xhr.status >= 400) {
 			//notify('API request failed');
 			console.log('XHR failed', xhr.responseText);
+			var response=JSON.parse(xhr.responseText);
+			chrome.tts.speak("Couldn't translate picture because "+response.error.message);
 			return;
 		}
 		cb(xhr.responseText);
