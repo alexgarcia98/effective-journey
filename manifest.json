@@ -3,8 +3,17 @@
   "version" : "1.0.0",
   "description" : "Provides an audible description of an image",
   "background" : { "scripts": ["background.js"] },
+  "commands": {
+    "moreInfo" : {
+        "suggested_key": {
+             "default": "Alt+Shift+M"
+        },
+        "description": "More Description"
+    }
+  },
   "permissions" : [
     "contextMenus",
+    "commands",
     "tabs",
     "tts",
     "http://*/*",
@@ -12,4 +21,5 @@
    ],
   "minimum_chrome_version" : "6.0.0.0",
   "manifest_version": 2
+
 }
