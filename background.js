@@ -105,7 +105,7 @@ function fix (problemStart,problemEnd, input) {
 }
 
 //someone should set this
-var API_KEY="";
+var API_KEY="AIzaSyDQwKY8ULdDRhwCyDPnlqFgLtjkQCoxDlk";
 
 
 //https://github.com/GoogleCloudPlatform/machine-learning-browser-extension/blob/master/chrome/background.js
@@ -159,7 +159,7 @@ function b64(url, cb) {
 
 function getClickHandler() {
 	return function(info, tab) {
-		chrome.tts.speak("Let me think about that...");
+		chrome.tts.speak("Thinking...");
 		console.log("info.srcUrl: "+info.srcUrl);
 		//getMainFunction()(info, tab, input);
 		//return;
@@ -241,7 +241,7 @@ function getMainFunction() {
 			console.log("start of imagePropertiesAnnotation");
 			var colorProperties = new Object();
             		colorProperties.colors = new Array();
-			
+
          		colors(obj,colorProperties);
             		for (var i = 0; i < colorProperties.colors.length; i++) {
               			console.log("Colors: " + colorProperties.colors[i].red + " " + colorProperties.colors[i].green + " " + colorProperties.colors[i].blue + " " + colorProperties.colors[i].score + " " + colorProperties.colors[i].pixelFraction );
@@ -360,7 +360,7 @@ function analyze_faces(faces) {
 	for(var j=0;j<faces.length;j++) {
 		var face=faces[j];
 		console.log("one face in faces with confidence: "+face.detectionConfidence);
-		if(face.detectionConfidence>=0.5) {
+		if(face.detectionConfidence>=0.3) {
 			var temp=new Object();
 			console.log("face.headwear: "+face.headwear);
 			temp.headwear=face.headwear;
@@ -401,7 +401,7 @@ function analyze_faces(faces) {
 		}
 	}
 	if(ans.people.length>=1) {
-		ans.relevancy=0.5;
+		ans.relevancy=0.3;
 	}
 	else {
 		ans.relevancy=0.0;
@@ -441,7 +441,10 @@ function analyze_labels(labels) {
 	ans.typename="labels";
 	ans.relevancy=0.6;
 	ans.labels=new Array();
-	for(var i=0;i<labels.length&&ans.labels.length<3;i++) {
+	if(labels.length != 0) {
+		ans.labels.push(labels[0]);
+	}
+	for(var i=1;i<labels.length&&ans.labels.length<=3;i++) {
 		//console.log("description: "+labels[i].description);
 		if(labels[i].score>=0.8) {
 			ans.labels.push(labels[i]);
@@ -458,8 +461,8 @@ function analyze_webEntities(webEntities, faces) {
 	//first web entity over 4.0 is name for face
 	console.log("WEB ENTITIES: " + webEntities.length);
 	for(var i=0, p=0;i<webEntities.length && p<faces.people.length;i++) {
-		console.log("web entity "+i+", p="+p+", desc="+webEntities[i].description);
-		if(webEntities[i].score>=4.0) {
+		console.log("web entity "+i+", p="+p+", desc="+webEntities[i].description + ", score=" + webEntities[i].score);
+		if(webEntities[i].score>=2.25) {
 			//var temp=new Object();
 			//temp.name=webEntities[i].description;
 			//faces.famous.push(temp);
@@ -587,7 +590,7 @@ function madLibGenerator(face, landmark, logos, label, order) {
     switch(order[i]) {
       case "face":
         if(face != "") {
-          output = output.concat(" with ");
+          output = output.concat("with ");
 	}
         output = output.concat(face);
         break;
@@ -604,13 +607,13 @@ function madLibGenerator(face, landmark, logos, label, order) {
         break;
       case "logos":
         if(logos != "") {
-          output = output.concat(" with ");
+          output = output.concat("with ");
 	}
         output = output.concat(logos);
         break;
       case "label":
         if(output == "") {
-          output = output.concat(" of ");
+          output = output.concat("of ");
           output = output.concat(label);
         }
         break;
@@ -619,6 +622,9 @@ function madLibGenerator(face, landmark, logos, label, order) {
     }
   }
   var start = "This is a picture ";
+	if (output == "of ") {
+		return "You're wasting an API call.";
+	}
   output = start.concat(output);
   return output;
 }
@@ -702,7 +708,7 @@ function faceAnnotations(obj, faces) {
         temp.description = start[i].description;
         temp.score = start[i].score;
         labels.push(temp);
-	console.log( "labels[" + labels.length-1 + "]: " + labels[labels.length-1].description + ", "+temp.score);
+				console.log("labels[" + labels.length-1 + "]: " + labels[labels.length-1].description + ", "+temp.score);
       }
       return labels;
 
