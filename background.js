@@ -23,7 +23,7 @@ chrome.commands.onCommand.addListener(function (command) {
 
 function moreInfo() {
 	if(flag === true) {
-		chrome.tts.speak('Lig a ma? Lig a ma balls.');
+		chrome.tts.speak();
 	}
 }
 
