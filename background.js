@@ -23,7 +23,7 @@ chrome.commands.onCommand.addListener(function (command) {
 
 function moreInfo() {
 	if(flag === true) {
-		chrome.tts.speak('Lig a ma? Lig a ma balls.');
+		chrome.tts.speak();
 	}
 }
 
@@ -125,7 +125,7 @@ function fix (problemStart,problemEnd, input) {
 }
 
 //someone should set this
-var API_KEY="";
+var API_KEY=;
 
 
 //https://github.com/GoogleCloudPlatform/machine-learning-browser-extension/blob/master/chrome/background.js
