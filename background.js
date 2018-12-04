@@ -125,7 +125,7 @@ function fix (problemStart,problemEnd, input) {
 }
 
 //someone should set this
-var API_KEY="";
+var API_KEY=;
 
 
 //https://github.com/GoogleCloudPlatform/machine-learning-browser-extension/blob/master/chrome/background.js
